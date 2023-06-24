@@ -7,34 +7,56 @@
     <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body>
-    <header>
+    <div id="navbar">
+      <header>
+        <nav class="recipe-navbar">
+          <h3>
+            <span class="nav-header"
+              ><a href="#hero-section">The Odin Project</a></span
+            >
+          </h3>
+
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="./recipes/capreseSalad.htm">Caprese Salad</a></li>
+            <li>
+              <a href="./recipes/grilledCheeseSandwich.html"
+                >Grilled Cheese Sandwich</a
+              >
+            </li>
+            <li><a href="./recipes/scrambledEggs.html">Scrambled Eggs</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <header id="hero-section">
       <h1>Odin Recipes</h1>
       <small
         ><span><em>~Abhishek kumar</em></span></small
       >
       <hr />
     </header>
+
     <figure>
       <img
         src="http://secret-ingredient.com/wp-content/uploads/2017/05/Privatechef_CW.jpg"
         alt="Cooking Chef"
-        style="max-width: 60%"
       />
       <figcaption>
         <span><em>Chef</em></span>
       </figcaption>
     </figure>
     <br />
-    <div>
+    <!-- list of recipes -->
+    <div class="recipe-list">
       <ul>
-        <li><a href="./recipes/capreseSalad.htm">Caprese Salad</a></li>
-        <li>
-          <a href="./recipes/grilledCheeseSandwich.html"
+        <li class="recipe-list-item"><a href="./recipes/capreseSalad.htm">Caprese Salad</a></li>
+        <li class="recipe-list-item"><a href="./recipes/grilledCheeseSandwich.html"
             >Grilled Cheese Sandwich</a
           >
         </li>
-        <li><a href="./recipes/scrambledEggs.html">Scrambled Eggs</a></li>
+        <li class="recipe-list-item"><a href="./recipes/scrambledEggs.html">Scrambled Eggs</a></li>
       </ul>
-    </div>
+    </di>
   </body>
 </html>
