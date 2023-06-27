@@ -120,9 +120,22 @@ img:hover {
   background-color: #e4ffef;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   width: 20rem;
-  height: 20rem;
+  height: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+}
+
+/* align recipe-list items in a row */
+
+.recipe-list ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
