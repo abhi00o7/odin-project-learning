@@ -153,3 +153,18 @@ img:hover {
   text-decoration: none;
   color: #000000e8;
 }
+
+.recipe-head {
+  text-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000000e8;
+}
+
+.recipe-img-caption {
+  font-size: 1rem;
+  font-weight: 200;
+  font-style: italic;
+  color: #000000e8;
+}
