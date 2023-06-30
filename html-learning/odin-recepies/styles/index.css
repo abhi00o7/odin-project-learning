@@ -166,5 +166,17 @@ img:hover {
   font-size: 1rem;
   font-weight: 200;
   font-style: italic;
-  color: #000000e8;
+  color: #00000048;
+}
+
+.recipe-img-caption:hover {
+  color: #000000;
+}
+
+.recipe-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
 }
