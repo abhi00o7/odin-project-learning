@@ -188,3 +188,13 @@ img:hover {
   font-weight: 300;
   color: #000000e8;
 }
+
+/* border for recipes  */
+.recipe-body{
+  border: 1px solid #000000e8;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #e4ffef;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
