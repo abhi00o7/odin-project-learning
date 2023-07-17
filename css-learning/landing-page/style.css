@@ -5,3 +5,51 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* navbar styles */
+
+.navbar {
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.navbar__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__menu__item {
+  list-style: none;
+  margin-left: 1rem;
+}
+
+.navbar__menu__item a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.navbar__menu__item a:hover {
+  color: #f00;
+}
+
+.navbar__menu__item a.active {
+  color: #f00;
+}
+
+/* hero styles */
