@@ -53,3 +53,50 @@
 }
 
 /* hero styles */
+
+.hero {
+  background-image: url("../images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__content {
+  text-align: center;
+  color: #fff;
+}
+
+.hero__content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero__content p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.hero__content button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+  background-color: #f00;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.hero__content button:hover {
+  background-color: #fff;
+  color: #f00;
+}
+
+/* features styles */
