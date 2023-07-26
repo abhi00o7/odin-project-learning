@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Console Demo</title>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+    <script>
+      let counter = 0;
+
+      function incrementCounter() {
+        counter++;
+      }
+
+      incrementCounter();
+      console.log(counter); // 1
+
+      const element = document.getElementById("my-element");
+
+      function changeElementText() {
+        element.textContent = "Hello, world!";
+      }
+
+      changeElementText();
+
+      function logSomethingToConsole() {
+        console.log("This is a log message");
+      }
+
+      logSomethingToConsole();
+    </script>
+  </body>
+</html>
