@@ -15,6 +15,7 @@ function decrement() {
 
 // 4. Create four buttons that call either the `increment` or `decrement` functions when clicked.
 // 5. Create an element that displays the `score` variable value, and update it whenever the `score` changes.
+/*
 const scoreDisplay = document.getElementById('score-display');
 scoreDisplay.textContent = score;
 
@@ -45,3 +46,27 @@ doubleButton.addEventListener('click', () => {
   scoreDisplay.textContent = score;
 }
 );
+*/
+
+// Lexical Scoping
+
+let a = 1;
+let b = 2;
+
+function outer() {
+  let a = 10;
+  let b = 20;
+
+  function inner() {
+    let a = 100;
+    let b = 200;
+
+    console.log(a, b);
+  }
+
+  inner();
+  console.log(a, b);
+}
+
+outer();  
+console.log(a, b);
