@@ -37,3 +37,45 @@ for (let x = 9; x >= 1; x--) {
 function coolCities(cities) {
   return cities.filter(city => city.temperature < 70);
 }
+
+
+// composable functions practice
+
+// 1. Write a function called `multiplyByTwo` that takes in a number and returns that number multiplied by two.
+function multiplyByTwo(num) {
+  return num * 2;
+}
+
+// 2. Write a function called `addThree` that takes in a number and returns that number plus three.
+function addThree(num) {
+  return num + 3;
+}
+
+// 3. Write a function called `divideByFive` that takes in a number and returns that number divided by five.
+function divideByFive(num) {
+  return num / 5;
+}
+
+// 4. Write a function called `addTwoNumbers` that takes in two numbers and returns the sum of those numbers.
+function addTwoNumbers(num1, num2) {
+  return num1 + num2;
+}
+
+// 5. Write a function called `compose` that takes in a number, and two functions, `multiplyByTwo` and `addThree`, and returns the number multiplied by two and then added to three.
+
+function compose(num, multiplyByTwo, addThree) {
+  return addThree(multiplyByTwo(num));
+}
+
+// 6. What's the result of calling `compose(5, multiplyByTwo, addThree)`?
+// 13
+
+// 7. What's the result of calling `compose(10, multiplyByTwo, divideByFive)`?
+// 4
+
+// 8. What's the result of calling `compose(5, addThree, divideByFive)`?
+// 4
+
+// 9. What's the result of calling `compose(5, addThree, multiplyByTwo)`?
+
+// 13
