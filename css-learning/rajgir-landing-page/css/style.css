@@ -21,10 +21,18 @@ html {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato","Roboto" sans-serif;
   font-weight: 400;
+  font-size: 1.6rem;
   line-height: 1.7;
   color: #777;
   padding: 3rem;
 }
 
+.header{
+  height: 95vh;
+  background-image: linear-gradient(to right bottom rgba(126, 213, 111, 0.82), rgba(40, 180, 133, 0.837)) url(../img/hero.jpg);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
